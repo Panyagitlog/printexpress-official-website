@@ -1,0 +1,45 @@
+# ================================
+# ⚙️ Node / Vite / React Ignore
+# ================================
+
+# Node dependencies
+node_modules/
+
+# Build output (Vite build folder)
+dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files (private data)
+.env
+.env.*.local
+
+# Editor / System files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Backup / Temporary files
+*.zip
+*.rar
+*.tar
+*.tmp
+*.bak
+PrintExpressBackupData/
+
+# Local OS files
+desktop.ini
+
+# Optional lock files (you can keep one if you prefer)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# ================================
+# ✅ End of .gitignore
+# ================================
